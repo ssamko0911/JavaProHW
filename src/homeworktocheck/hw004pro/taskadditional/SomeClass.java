@@ -20,6 +20,7 @@ public class SomeClass {
             System.out.println("Данные записаны в файл.");
         } catch (IOException e) {
             System.err.println("Что-то пошло не так. Простите.");
+            System.out.println(e.getMessage());
         }
 
         try (FileReader fileReader = new FileReader(someFile)) {
@@ -30,6 +31,7 @@ public class SomeClass {
             }
         } catch (IOException e) {
             System.err.println("Что-то пошло не так. Простите.");
+            System.out.println(e.getMessage());
         }
     }
 }

@@ -30,6 +30,7 @@ public class CreateFile {
             System.out.println("\nЗначения записаны в файл.");
         } catch (IOException e) {
             System.err.println("Что-то пошло не так. Простите.");
+            System.out.println(e.getMessage());
         }
     }
 }
