@@ -1,5 +1,13 @@
 package homeworktocheck.hw002pro.task003;
 
+/*
+Задание 3
+Минимальное из N чисел(использовать LinkedList):
+1. Ввести с клавиатуры число N.
+2. Считать N целых чисел и заполнить ими список - метод getIntegerList.
+3. Найти минимальное число среди элементов списка - метод getMinimum.
+*/
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
