@@ -22,6 +22,7 @@ public class MinLinkedList {
         LinkedList<Integer> list = new LinkedList<>();
         System.out.println("Введите количество элементов связанного списка: ");
         System.out.printf("Минимальное значение равно: %d.", getMinimum(getIntegerList(Integer.parseInt(in.readLine()), list)));
+        in.close();
     }
 
     public static LinkedList<Integer> getIntegerList(int numberOfElements, LinkedList<Integer> someList) throws IOException {

@@ -23,6 +23,7 @@ public class DoubleWords {
             System.out.printf("Введите %dе значение коллекции:\n", i + 1);
             list.add(in.readLine());
         }
+        in.close();
         System.out.println("\u001B[32m" + "_".repeat(60));
         System.out.println("\u001B[0m" + "Содержимое коллекции: ");
         System.out.println("\u001B[0m" + doubleVaues(list));
@@ -30,9 +31,8 @@ public class DoubleWords {
     }
 
     public static List<String> doubleVaues(ArrayList<String> someList) {
-        for (int i = 0; i < someList.size(); i++) {
+        for (int i = 0; i < someList.size(); i+=2) {
             someList.add(i, someList.get(i));
-            i++;
         }
         return someList;
     }
