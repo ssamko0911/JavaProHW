@@ -1,6 +1,6 @@
 package homework.tocheck.hw001pro.additionaltask;
 
-public class Car implements Comparable {
+public class Car implements Comparable<Car> {
     int speed;
     int price;
     String model;
@@ -18,14 +18,14 @@ public class Car implements Comparable {
     }
 
     @Override
-    public int compareTo(Object o) {
-        int tempOne = this.speed - ((Car)o).speed;
+    public int compareTo(Car o) {
+        int tempOne = this.speed - o.speed;
         if (tempOne == 0) {
-            int tempTwo = this.price - ((Car)o).price;
+            int tempTwo = this.price - o.price;
             if (tempTwo == 0) {
-                int tempThree = this.model.compareTo(((Car)o).model);
+                int tempThree = this.model.compareTo(o.model);
                 if (tempThree == 0) {
-                    return this.color.compareTo(((Car)o).color);
+                    return this.color.compareTo(o.color);
                 } else {
                     return tempThree;
                 }
@@ -35,6 +35,3 @@ public class Car implements Comparable {
         return tempOne;
     }
 }
-
-
-
