@@ -9,7 +9,7 @@ import java.util.*;
 public class LengthOfSentences {
     public static void main(String[] args) {
         String text = "Без труда не вынешь рыбки из пруда. Цыплят по осени считают. От сказанного слова не отвяжешься. Перекусишь на привале, а потом опять пойдешь.";
-        String[] strings = text.split("\\. ");
+        String[] strings = text.split("[. ] | [? ] | [! ]");
         for (String string : strings) {
             System.out.println(string); // Вывод массива для проверки;
         }
