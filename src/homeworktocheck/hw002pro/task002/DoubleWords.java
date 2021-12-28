@@ -16,7 +16,7 @@ import java.util.List;
 
 public class DoubleWords {
     public static void main(String[] args) throws IOException {
-        ArrayList<String> list = new ArrayList<>();
+        List<String> list = new ArrayList<>();
 
         BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
         for (int i = 0; i < 5; i++) {
@@ -30,7 +30,7 @@ public class DoubleWords {
         System.out.println("\u001B[32m" + "_".repeat(60));
     }
 
-    public static List<String> doubleVaues(ArrayList<String> someList) {
+    public static List<String> doubleVaues(List<String> someList) {
         for (int i = 0; i < someList.size(); i+=2) {
             someList.add(i, someList.get(i));
         }
