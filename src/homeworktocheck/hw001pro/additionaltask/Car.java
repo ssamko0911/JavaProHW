@@ -1,4 +1,6 @@
-package homework.tocheck.hw001pro.additionaltask;
+package homeworktocheck.hw001pro.additionaltask;
+
+// переместил каталог;
 
 public class Car implements Comparable<Car> {
     int speed;

@@ -1,4 +1,4 @@
-package homework.tocheck.hw001pro.task002;
+package homeworktocheck.hw001pro.task002;
 
 /*
 Задание 2

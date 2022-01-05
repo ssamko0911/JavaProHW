@@ -1,4 +1,4 @@
-package homework.tocheck.hw001pro.additionaltask;
+package homeworktocheck.hw001pro.additionaltask;
 
 import java.util.Arrays;
 

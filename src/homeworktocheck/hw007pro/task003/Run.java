@@ -13,7 +13,7 @@ import java.lang.reflect.Modifier;
 
 public class Run {
 
-    private static class Person {
+    private class Person {
         String name = "Sergey";
         int age = 37;
         double weight = 67.5;
