@@ -1,4 +1,4 @@
-package homeworktocheck.hw007pro.taskadditional;
+package homeworktocheck.hw007pro.task003.taskadditional;
 
 public class Animal {
     private String name = "Тигр";
