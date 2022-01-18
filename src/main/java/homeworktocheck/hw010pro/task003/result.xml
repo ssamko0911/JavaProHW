@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<city>
+    <street>
+        <housing>1</housing>
+        <street>ул.Григория Сковороды</street>
+    </street>
+    <street>
+        <housing>19</housing>
+        <street>пр.Мира</street>
+    </street>
+</city>
